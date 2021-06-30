@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import Section from "./components/Section"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
+import React, { Component }  from 'react';
 
 const App = () => {
   const genreIncrement = 4

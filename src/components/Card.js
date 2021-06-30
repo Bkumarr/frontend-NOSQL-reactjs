@@ -1,4 +1,5 @@
 import { useState } from "react"
+import React, { Component }  from 'react';
 
 const Card = ({ movie }) => {
   const [isShown, setIsShown] = useState(false)

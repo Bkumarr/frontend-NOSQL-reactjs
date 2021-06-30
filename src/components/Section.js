@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Card from "./Card"
+import React, { Component }  from 'react';
 
 const Section = ({ genre }) => {
   const [movies, setMovies] = useState(null)

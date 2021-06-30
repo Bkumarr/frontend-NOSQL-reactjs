@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import React, { Component }  from 'react';
 
 const HeroSection = () => {
   const [movie, setMovie] = useState(null)
