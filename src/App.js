@@ -10,7 +10,7 @@ const App = () => {
   const [limit, setLimit] = useState(genreIncrement)
 
   const fetchData = async () => {
-    const response = await fetch("./functions/getGenres", {
+    const response = await fetch("/.netlify/functions/getGenres", {
       method: "POST",
       body: limit,
     })
