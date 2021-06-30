@@ -19,7 +19,7 @@ const HeroSection = () => {
   }, [])
 
   return (
-    <>
+    <div>
       {movie && (
         <div className="hero">
           <video className="hero-video" muted controls autoPlay={true} loop>
@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   )
 }
 

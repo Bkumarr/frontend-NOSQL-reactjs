@@ -21,7 +21,7 @@ const Section = ({ genre }) => {
   }, [])
 
   return (
-    <>
+    <div>
       <h2 id={genre}>{genre}</h2>
       {movies && (
         <div className="movie-section">
@@ -39,7 +39,7 @@ const Section = ({ genre }) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   )
 }
 

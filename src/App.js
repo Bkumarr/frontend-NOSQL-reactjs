@@ -26,7 +26,7 @@ const App = () => {
   }, [limit])
 
   return (
-    <>
+    <div>
       <NavBar />
       <HeroSection />
       {genres && (
@@ -42,7 +42,7 @@ const App = () => {
           setLimit(limit + genreIncrement)
         }}
       />
-    </>
+    </div>
   )
 }
 
