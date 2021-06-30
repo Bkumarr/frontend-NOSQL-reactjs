@@ -1,11 +1,11 @@
 tasks:
-  - name: workshop-graphql-netflix
+  - name: frontend-NOSQL-reactjs
     init: |
-      cd /workspace/workshop-graphql-netflix
+      cd /workspace/frontend-NOSQL-reactjs
       nvm install node
       npm install -g npm@latest
     command: |
-      cd /workspace/workshop-graphql-netflix
+      cd /workspace/frontend-NOSQL-reactjs
       echo "workshopgraphql-netflix gitpod ready - LET'S DO THIS!"
       npm install
 ports:
